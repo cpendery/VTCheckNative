@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423D4DF124CE838B009506C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4DF024CE838B009506C8 /* AppDelegate.swift */; };
+		423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4DF224CE838B009506C8 /* SceneDelegate.swift */; };
+		423D4DF524CE838B009506C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4DF424CE838B009506C8 /* ContentView.swift */; };
+		423D4DF724CE838E009506C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D4DF624CE838E009506C8 /* Assets.xcassets */; };
+		423D4DFA24CE838E009506C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423D4DF924CE838E009506C8 /* Preview Assets.xcassets */; };
+		423D4DFD24CE838E009506C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D4DFB24CE838E009506C8 /* LaunchScreen.storyboard */; };
+		423D4E0824CE838F009506C8 /* vtcheck_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E0724CE838F009506C8 /* vtcheck_iosTests.swift */; };
+		423D4E1324CE838F009506C8 /* vtcheck_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423D4E0424CE838F009506C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423D4DE524CE838B009506C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423D4DEC24CE838B009506C8;
+			remoteInfo = "vtcheck-ios";
+		};
+		423D4E0F24CE838F009506C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423D4DE524CE838B009506C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423D4DEC24CE838B009506C8;
+			remoteInfo = "vtcheck-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423D4DED24CE838B009506C8 /* vtcheck-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vtcheck-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D4DF024CE838B009506C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423D4DF224CE838B009506C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		423D4DF424CE838B009506C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		423D4DF624CE838E009506C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423D4DF924CE838E009506C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		423D4DFC24CE838E009506C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423D4DFE24CE838E009506C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423D4E0324CE838F009506C8 /* vtcheck-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vtcheck-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D4E0724CE838F009506C8 /* vtcheck_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vtcheck_iosTests.swift; sourceTree = "<group>"; };
+		423D4E0924CE838F009506C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423D4E0E24CE838F009506C8 /* vtcheck-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vtcheck-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vtcheck_iosUITests.swift; sourceTree = "<group>"; };
+		423D4E1424CE838F009506C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423D4DEA24CE838B009506C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4E0024CE838F009506C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4E0B24CE838F009506C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423D4DE424CE838B009506C8 = {
+			isa = PBXGroup;
+			children = (
+				423D4DEF24CE838B009506C8 /* vtcheck-ios */,
+				423D4E0624CE838F009506C8 /* vtcheck-iosTests */,
+				423D4E1124CE838F009506C8 /* vtcheck-iosUITests */,
+				423D4DEE24CE838B009506C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423D4DEE24CE838B009506C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423D4DED24CE838B009506C8 /* vtcheck-ios.app */,
+				423D4E0324CE838F009506C8 /* vtcheck-iosTests.xctest */,
+				423D4E0E24CE838F009506C8 /* vtcheck-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423D4DEF24CE838B009506C8 /* vtcheck-ios */ = {
+			isa = PBXGroup;
+			children = (
+				423D4DF024CE838B009506C8 /* AppDelegate.swift */,
+				423D4DF224CE838B009506C8 /* SceneDelegate.swift */,
+				423D4DF424CE838B009506C8 /* ContentView.swift */,
+				423D4DF624CE838E009506C8 /* Assets.xcassets */,
+				423D4DFB24CE838E009506C8 /* LaunchScreen.storyboard */,
+				423D4DFE24CE838E009506C8 /* Info.plist */,
+				423D4DF824CE838E009506C8 /* Preview Content */,
+			);
+			path = "vtcheck-ios";
+			sourceTree = "<group>";
+		};
+		423D4DF824CE838E009506C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				423D4DF924CE838E009506C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		423D4E0624CE838F009506C8 /* vtcheck-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				423D4E0724CE838F009506C8 /* vtcheck_iosTests.swift */,
+				423D4E0924CE838F009506C8 /* Info.plist */,
+			);
+			path = "vtcheck-iosTests";
+			sourceTree = "<group>";
+		};
+		423D4E1124CE838F009506C8 /* vtcheck-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */,
+				423D4E1424CE838F009506C8 /* Info.plist */,
+			);
+			path = "vtcheck-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423D4DEC24CE838B009506C8 /* vtcheck-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423D4E1724CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-ios" */;
+			buildPhases = (
+				423D4DE924CE838B009506C8 /* Sources */,
+				423D4DEA24CE838B009506C8 /* Frameworks */,
+				423D4DEB24CE838B009506C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vtcheck-ios";
+			productName = "vtcheck-ios";
+			productReference = 423D4DED24CE838B009506C8 /* vtcheck-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423D4E0224CE838F009506C8 /* vtcheck-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423D4E1A24CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-iosTests" */;
+			buildPhases = (
+				423D4DFF24CE838F009506C8 /* Sources */,
+				423D4E0024CE838F009506C8 /* Frameworks */,
+				423D4E0124CE838F009506C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423D4E0524CE838F009506C8 /* PBXTargetDependency */,
+			);
+			name = "vtcheck-iosTests";
+			productName = "vtcheck-iosTests";
+			productReference = 423D4E0324CE838F009506C8 /* vtcheck-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423D4E0D24CE838F009506C8 /* vtcheck-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423D4E1D24CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-iosUITests" */;
+			buildPhases = (
+				423D4E0A24CE838F009506C8 /* Sources */,
+				423D4E0B24CE838F009506C8 /* Frameworks */,
+				423D4E0C24CE838F009506C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423D4E1024CE838F009506C8 /* PBXTargetDependency */,
+			);
+			name = "vtcheck-iosUITests";
+			productName = "vtcheck-iosUITests";
+			productReference = 423D4E0E24CE838F009506C8 /* vtcheck-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423D4DE524CE838B009506C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sameer Dandekar";
+				TargetAttributes = {
+					423D4DEC24CE838B009506C8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					423D4E0224CE838F009506C8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 423D4DEC24CE838B009506C8;
+					};
+					423D4E0D24CE838F009506C8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 423D4DEC24CE838B009506C8;
+					};
+				};
+			};
+			buildConfigurationList = 423D4DE824CE838B009506C8 /* Build configuration list for PBXProject "vtcheck-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423D4DE424CE838B009506C8;
+			productRefGroup = 423D4DEE24CE838B009506C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423D4DEC24CE838B009506C8 /* vtcheck-ios */,
+				423D4E0224CE838F009506C8 /* vtcheck-iosTests */,
+				423D4E0D24CE838F009506C8 /* vtcheck-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423D4DEB24CE838B009506C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423D4DFD24CE838E009506C8 /* LaunchScreen.storyboard in Resources */,
+				423D4DFA24CE838E009506C8 /* Preview Assets.xcassets in Resources */,
+				423D4DF724CE838E009506C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4E0124CE838F009506C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4E0C24CE838F009506C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423D4DE924CE838B009506C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423D4DF124CE838B009506C8 /* AppDelegate.swift in Sources */,
+				423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */,
+				423D4DF524CE838B009506C8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4DFF24CE838F009506C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423D4E0824CE838F009506C8 /* vtcheck_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423D4E0A24CE838F009506C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423D4E1324CE838F009506C8 /* vtcheck_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423D4E0524CE838F009506C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423D4DEC24CE838B009506C8 /* vtcheck-ios */;
+			targetProxy = 423D4E0424CE838F009506C8 /* PBXContainerItemProxy */;
+		};
+		423D4E1024CE838F009506C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423D4DEC24CE838B009506C8 /* vtcheck-ios */;
+			targetProxy = 423D4E0F24CE838F009506C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423D4DFB24CE838E009506C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423D4DFC24CE838E009506C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423D4E1524CE838F009506C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423D4E1624CE838F009506C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423D4E1824CE838F009506C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"vtcheck-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DX64M7B962;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "vtcheck-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423D4E1924CE838F009506C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"vtcheck-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = DX64M7B962;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "vtcheck-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		423D4E1B24CE838F009506C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX64M7B962;
+				INFOPLIST_FILE = "vtcheck-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vtcheck-ios.app/vtcheck-ios";
+			};
+			name = Debug;
+		};
+		423D4E1C24CE838F009506C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX64M7B962;
+				INFOPLIST_FILE = "vtcheck-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vtcheck-ios.app/vtcheck-ios";
+			};
+			name = Release;
+		};
+		423D4E1E24CE838F009506C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX64M7B962;
+				INFOPLIST_FILE = "vtcheck-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vtcheck-ios";
+			};
+			name = Debug;
+		};
+		423D4E1F24CE838F009506C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX64M7B962;
+				INFOPLIST_FILE = "vtcheck-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vtcheck-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423D4DE824CE838B009506C8 /* Build configuration list for PBXProject "vtcheck-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D4E1524CE838F009506C8 /* Debug */,
+				423D4E1624CE838F009506C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423D4E1724CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D4E1824CE838F009506C8 /* Debug */,
+				423D4E1924CE838F009506C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423D4E1A24CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D4E1B24CE838F009506C8 /* Debug */,
+				423D4E1C24CE838F009506C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423D4E1D24CE838F009506C8 /* Build configuration list for PBXNativeTarget "vtcheck-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D4E1E24CE838F009506C8 /* Debug */,
+				423D4E1F24CE838F009506C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423D4DE524CE838B009506C8 /* Project object */;
+}
