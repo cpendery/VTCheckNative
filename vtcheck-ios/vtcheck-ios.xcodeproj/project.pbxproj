@@ -15,6 +15,7 @@
 		423D4DFD24CE838E009506C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423D4DFB24CE838E009506C8 /* LaunchScreen.storyboard */; };
 		423D4E0824CE838F009506C8 /* vtcheck_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E0724CE838F009506C8 /* vtcheck_iosTests.swift */; };
 		423D4E1324CE838F009506C8 /* vtcheck_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */; };
+		423D4E2324CE86BA009506C8 /* ScanFocusRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		423D4E0E24CE838F009506C8 /* vtcheck-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vtcheck-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vtcheck_iosUITests.swift; sourceTree = "<group>"; };
 		423D4E1424CE838F009506C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFocusRegion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,13 @@
 		423D4DEF24CE838B009506C8 /* vtcheck-ios */ = {
 			isa = PBXGroup;
 			children = (
-				423D4DF024CE838B009506C8 /* AppDelegate.swift */,
-				423D4DF224CE838B009506C8 /* SceneDelegate.swift */,
+				423D4E2124CE866F009506C8 /* Delegates */,
 				423D4DF424CE838B009506C8 /* ContentView.swift */,
 				423D4DF624CE838E009506C8 /* Assets.xcassets */,
 				423D4DFB24CE838E009506C8 /* LaunchScreen.storyboard */,
 				423D4DFE24CE838E009506C8 /* Info.plist */,
 				423D4DF824CE838E009506C8 /* Preview Content */,
+				423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */,
 			);
 			path = "vtcheck-ios";
 			sourceTree = "<group>";
@@ -134,6 +136,15 @@
 				423D4E1424CE838F009506C8 /* Info.plist */,
 			);
 			path = "vtcheck-iosUITests";
+			sourceTree = "<group>";
+		};
+		423D4E2124CE866F009506C8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				423D4DF024CE838B009506C8 /* AppDelegate.swift */,
+				423D4DF224CE838B009506C8 /* SceneDelegate.swift */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423D4DF124CE838B009506C8 /* AppDelegate.swift in Sources */,
+				423D4E2324CE86BA009506C8 /* ScanFocusRegion.swift in Sources */,
 				423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */,
 				423D4DF524CE838B009506C8 /* ContentView.swift in Sources */,
 			);
