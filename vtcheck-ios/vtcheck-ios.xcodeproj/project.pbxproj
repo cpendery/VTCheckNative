@@ -16,6 +16,19 @@
 		423D4E0824CE838F009506C8 /* vtcheck_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E0724CE838F009506C8 /* vtcheck_iosTests.swift */; };
 		423D4E1324CE838F009506C8 /* vtcheck_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */; };
 		423D4E2324CE86BA009506C8 /* ScanFocusRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */; };
+		423D4E2724CF30C2009506C8 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2624CF30C2009506C8 /* FlashlightButton.swift */; };
+		423D4E2A24CF30EE009506C8 /* GetImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2824CF30ED009506C8 /* GetImageFromUrl.swift */; };
+		423D4E2B24CF30EE009506C8 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2924CF30EE009506C8 /* ScannerViewController.swift */; };
+		423D4E2F24CF3DC1009506C8 /* ScanQRBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E2E24CF3DC1009506C8 /* ScanQRBarcode.swift */; };
+		423D4E3124CF3DFC009506C8 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E3024CF3DFC009506C8 /* BarcodeScanner.swift */; };
+		423D4E9D24D0E2C1009506C8 /* RoomData.json in Resources */ = {isa = PBXBuildFile; fileRef = 423D4E9C24D0E2C1009506C8 /* RoomData.json */; };
+		423D4E9F24D0E3C9009506C8 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4E9E24D0E3C9009506C8 /* UserData.swift */; };
+		423D4EA124D0E3FE009506C8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA024D0E3FE009506C8 /* Room.swift */; };
+		423D4EA324D0E460009506C8 /* RoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA224D0E460009506C8 /* RoomData.swift */; };
+		423D4EA824D0E511009506C8 /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA424D0E511009506C8 /* RoomItem.swift */; };
+		423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA524D0E511009506C8 /* SearchBar.swift */; };
+		423D4EAA24D0E511009506C8 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA624D0E511009506C8 /* RoomList.swift */; };
+		423D4EAB24D0E511009506C8 /* RoomDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA724D0E511009506C8 /* RoomDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		423D4DED24CE838B009506C8 /* vtcheck-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vtcheck-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D4DED24CE838B009506C8 /* VT Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VT Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423D4DF024CE838B009506C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423D4DF224CE838B009506C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		423D4DF424CE838B009506C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +64,19 @@
 		423D4E1224CE838F009506C8 /* vtcheck_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vtcheck_iosUITests.swift; sourceTree = "<group>"; };
 		423D4E1424CE838F009506C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFocusRegion.swift; sourceTree = "<group>"; };
+		423D4E2624CF30C2009506C8 /* FlashlightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+		423D4E2824CF30ED009506C8 /* GetImageFromUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetImageFromUrl.swift; sourceTree = "<group>"; };
+		423D4E2924CF30EE009506C8 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		423D4E2E24CF3DC1009506C8 /* ScanQRBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRBarcode.swift; sourceTree = "<group>"; };
+		423D4E3024CF3DFC009506C8 /* BarcodeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		423D4E9C24D0E2C1009506C8 /* RoomData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomData.json; sourceTree = "<group>"; };
+		423D4E9E24D0E3C9009506C8 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		423D4EA024D0E3FE009506C8 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		423D4EA224D0E460009506C8 /* RoomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomData.swift; sourceTree = "<group>"; };
+		423D4EA424D0E511009506C8 /* RoomItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		423D4EA524D0E511009506C8 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		423D4EA624D0E511009506C8 /* RoomList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
+		423D4EA724D0E511009506C8 /* RoomDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +117,7 @@
 		423D4DEE24CE838B009506C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				423D4DED24CE838B009506C8 /* vtcheck-ios.app */,
+				423D4DED24CE838B009506C8 /* VT Check.app */,
 				423D4E0324CE838F009506C8 /* vtcheck-iosTests.xctest */,
 				423D4E0E24CE838F009506C8 /* vtcheck-iosUITests.xctest */,
 			);
@@ -101,6 +127,12 @@
 		423D4DEF24CE838B009506C8 /* vtcheck-ios */ = {
 			isa = PBXGroup;
 			children = (
+				423D4EA724D0E511009506C8 /* RoomDetails.swift */,
+				423D4EA424D0E511009506C8 /* RoomItem.swift */,
+				423D4EA624D0E511009506C8 /* RoomList.swift */,
+				423D4EA524D0E511009506C8 /* SearchBar.swift */,
+				423D4E9724D0751D009506C8 /* Data Model */,
+				423D4E2E24CF3DC1009506C8 /* ScanQRBarcode.swift */,
 				423D4E2124CE866F009506C8 /* Delegates */,
 				423D4DF424CE838B009506C8 /* ContentView.swift */,
 				423D4DF624CE838E009506C8 /* Assets.xcassets */,
@@ -108,6 +140,10 @@
 				423D4DFE24CE838E009506C8 /* Info.plist */,
 				423D4DF824CE838E009506C8 /* Preview Content */,
 				423D4E2224CE86BA009506C8 /* ScanFocusRegion.swift */,
+				423D4E2824CF30ED009506C8 /* GetImageFromUrl.swift */,
+				423D4E3024CF3DFC009506C8 /* BarcodeScanner.swift */,
+				423D4E2924CF30EE009506C8 /* ScannerViewController.swift */,
+				423D4E2624CF30C2009506C8 /* FlashlightButton.swift */,
 			);
 			path = "vtcheck-ios";
 			sourceTree = "<group>";
@@ -147,6 +183,17 @@
 			name = Delegates;
 			sourceTree = "<group>";
 		};
+		423D4E9724D0751D009506C8 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				423D4E9C24D0E2C1009506C8 /* RoomData.json */,
+				423D4E9E24D0E3C9009506C8 /* UserData.swift */,
+				423D4EA024D0E3FE009506C8 /* Room.swift */,
+				423D4EA224D0E460009506C8 /* RoomData.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,7 +211,7 @@
 			);
 			name = "vtcheck-ios";
 			productName = "vtcheck-ios";
-			productReference = 423D4DED24CE838B009506C8 /* vtcheck-ios.app */;
+			productReference = 423D4DED24CE838B009506C8 /* VT Check.app */;
 			productType = "com.apple.product-type.application";
 		};
 		423D4E0224CE838F009506C8 /* vtcheck-iosTests */ = {
@@ -251,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423D4E9D24D0E2C1009506C8 /* RoomData.json in Resources */,
 				423D4DFD24CE838E009506C8 /* LaunchScreen.storyboard in Resources */,
 				423D4DFA24CE838E009506C8 /* Preview Assets.xcassets in Resources */,
 				423D4DF724CE838E009506C8 /* Assets.xcassets in Resources */,
@@ -278,10 +326,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423D4EA324D0E460009506C8 /* RoomData.swift in Sources */,
+				423D4E3124CF3DFC009506C8 /* BarcodeScanner.swift in Sources */,
+				423D4EAA24D0E511009506C8 /* RoomList.swift in Sources */,
+				423D4E2B24CF30EE009506C8 /* ScannerViewController.swift in Sources */,
+				423D4E2A24CF30EE009506C8 /* GetImageFromUrl.swift in Sources */,
 				423D4DF124CE838B009506C8 /* AppDelegate.swift in Sources */,
+				423D4E2724CF30C2009506C8 /* FlashlightButton.swift in Sources */,
 				423D4E2324CE86BA009506C8 /* ScanFocusRegion.swift in Sources */,
+				423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */,
 				423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */,
+				423D4EA824D0E511009506C8 /* RoomItem.swift in Sources */,
+				423D4E2F24CF3DC1009506C8 /* ScanQRBarcode.swift in Sources */,
+				423D4E9F24D0E3C9009506C8 /* UserData.swift in Sources */,
 				423D4DF524CE838B009506C8 /* ContentView.swift in Sources */,
+				423D4EAB24D0E511009506C8 /* RoomDetails.swift in Sources */,
+				423D4EA124D0E3FE009506C8 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,12 +511,13 @@
 				DEVELOPMENT_TEAM = DX64M7B962;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "vtcheck-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "VT Check";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,12 +532,13 @@
 				DEVELOPMENT_TEAM = DX64M7B962;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "vtcheck-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sameerdandekar.vtcheck-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "VT Check";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
