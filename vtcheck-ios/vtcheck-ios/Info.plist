@@ -4,6 +4,11 @@
 <dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Camera use is required to scan a QR code</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

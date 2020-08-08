@@ -27,6 +27,16 @@ struct RoomDetails: View {
                 Section(header: Text("Current Occupancy")) {
                     Text(String(room.currentOccupancy))
                 }
+                
+
+                Section(header: Text("Current Status")) {
+                    if room.isInfected {
+                        Text("This room is closed due to COVID-19 restrictions.")
+                    }
+                    else {
+                        Text("This room is open.")
+                    }
+                }
             }
  
         }   // End of Form

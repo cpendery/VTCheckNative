@@ -29,6 +29,7 @@
 		423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA524D0E511009506C8 /* SearchBar.swift */; };
 		423D4EAA24D0E511009506C8 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA624D0E511009506C8 /* RoomList.swift */; };
 		423D4EAB24D0E511009506C8 /* RoomDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA724D0E511009506C8 /* RoomDetails.swift */; };
+		4260CD4E24D63C9B0037808D /* WebRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260CD4D24D63C9B0037808D /* WebRequestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		423D4EA524D0E511009506C8 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		423D4EA624D0E511009506C8 /* RoomList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
 		423D4EA724D0E511009506C8 /* RoomDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetails.swift; sourceTree = "<group>"; };
+		4260CD4D24D63C9B0037808D /* WebRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				423D4E9E24D0E3C9009506C8 /* UserData.swift */,
 				423D4EA024D0E3FE009506C8 /* Room.swift */,
 				423D4EA224D0E460009506C8 /* RoomData.swift */,
+				4260CD4D24D63C9B0037808D /* WebRequestData.swift */,
 			);
 			name = "Data Model";
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				423D4DF124CE838B009506C8 /* AppDelegate.swift in Sources */,
 				423D4E2724CF30C2009506C8 /* FlashlightButton.swift in Sources */,
 				423D4E2324CE86BA009506C8 /* ScanFocusRegion.swift in Sources */,
+				4260CD4E24D63C9B0037808D /* WebRequestData.swift in Sources */,
 				423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */,
 				423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */,
 				423D4EA824D0E511009506C8 /* RoomItem.swift in Sources */,

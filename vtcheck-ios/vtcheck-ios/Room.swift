@@ -12,6 +12,7 @@ struct Room: Hashable, Codable, Identifiable {
    
     var id: UUID        // Storage Type: String, Use Type (format): UUID
     var field: Int
+    var building: String
     var name: String
     var address: String
     var currentOccupancy: Int

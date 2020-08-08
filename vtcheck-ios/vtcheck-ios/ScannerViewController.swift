@@ -105,47 +105,66 @@ class ScannerViewController: UIViewController {
 
        func launchApp(decodedURL: String) {
            
+        var checkedIn = false
            if presentedViewController != nil {
                return
            }
-           
-           let alertPrompt = UIAlertController(title: decodedURL, message: " \(decodedURL)\nCurrent Occupancy: 3\nLimit: 15", preferredStyle: .actionSheet)
         
-        let titleAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor.red]
-            let titleString = NSAttributedString(string: "\n\(decodedURL)", attributes: titleAttributes)
-            alertPrompt.setValue(titleString, forKey: "attributedTitle")
+        // TO DO: verify roomID
+        let components = decodedURL.components(separatedBy: "/")
+        let roomID = components.last!
+        getOneRoomData(roomID: roomID, action: "get")
         
-        let messageAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor.red]
-            let messageString = NSAttributedString(string: "\n\nCurrent Occupancy: 3\n\nLimit: 15\n\n", attributes: messageAttributes)
-            alertPrompt.setValue(messageString, forKey: "attributedMessage")
-           
-           let checkInAction = UIAlertAction(title: "Check In", style: UIAlertAction.Style.default, handler: { (action) -> Void in
-               
-               if let url = URL(string: decodedURL) {
-                   if UIApplication.shared.canOpenURL(url) {
-                       UIApplication.shared.open(url)
-                   }
-               }
-           })
-        checkInAction.setValue(UIColor.green, forKey: "titleTextColor")
+        let alertPrompt = UIAlertController(title: scannedRoomName, message: "This room is closed due to COVID-19 restrictions.", preferredStyle: .actionSheet)
+        let covidAlertPrompt = UIAlertController(title: scannedRoomName, message: "This room is closed due to COVID-19 restrictions.", preferredStyle: .alert)
         
-        let checkOutAction = UIAlertAction(title: "Check Out", style: UIAlertAction.Style.default, handler: { (action) -> Void in
+        if scannedRoomInfected {
+            let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
+             covidAlertPrompt.addAction(okAction)
             
-            if let url = URL(string: decodedURL) {
-                if UIApplication.shared.canOpenURL(url) {
-                    UIApplication.shared.open(url)
-                }
-            }
-        })
-        checkOutAction.setValue(UIColor.red, forKey: "titleTextColor")
-           
-           let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
-        
-            alertPrompt.addAction(checkInAction)
-            alertPrompt.addAction(checkOutAction)
-            alertPrompt.addAction(cancelAction)
-        
-           present(alertPrompt, animated: true, completion: nil)
+            present(covidAlertPrompt, animated: true, completion: nil)
+        }
+        else {
+
+            let titleAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor.red]
+                let titleString = NSAttributedString(string: "\n\(scannedRoomName)", attributes: titleAttributes)
+                alertPrompt.setValue(titleString, forKey: "attributedTitle")
+            
+            let messageAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30), NSAttributedString.Key.foregroundColor: UIColor.red]
+                let messageString = NSAttributedString(string: "\n\nCurrent Occupancy: \(scannedRoomCurrentOccupancy)\n\nLimit: \(scannedRoomLimit)\n\n", attributes: messageAttributes)
+                alertPrompt.setValue(messageString, forKey: "attributedMessage")
+               
+               let checkInAction = UIAlertAction(title: "Check In", style: UIAlertAction.Style.default, handler: { (action) -> Void in
+                   
+                    getOneRoomData(roomID: roomID, action: "add")
+                 let alertPrompt2 = UIAlertController(title: "\(scannedRoomName)", message: "You're checked in!", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: {(action) -> Void in getAllRoomData()})
+                 alertPrompt2.addAction(okAction)
+                self.present(alertPrompt2, animated: true, completion: nil)
+                
+               })
+            checkInAction.setValue(UIColor.systemGreen, forKey: "titleTextColor")
+            
+            let checkOutAction = UIAlertAction(title: "Check Out", style: UIAlertAction.Style.default, handler: { (action) -> Void in
+                getOneRoomData(roomID: roomID, action: "subtract")
+                
+                 let alertPrompt2 = UIAlertController(title: "\(scannedRoomName)", message: "You're checked out!", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: {(action) -> Void in getAllRoomData()})
+                 alertPrompt2.addAction(okAction)
+                self.present(alertPrompt2, animated: true, completion: nil)
+            })
+            checkOutAction.setValue(UIColor.systemRed, forKey: "titleTextColor")
+               
+               let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
+                
+                alertPrompt.addAction(checkInAction)
+                alertPrompt.addAction(checkOutAction)
+                alertPrompt.addAction(cancelAction)
+            
+            
+               present(alertPrompt, animated: true, completion: nil)
+        }
+
        }
      private func updatePreviewLayer(layer: AVCaptureConnection, orientation: AVCaptureVideoOrientation) {
        layer.videoOrientation = orientation

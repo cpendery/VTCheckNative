@@ -15,10 +15,28 @@ struct RoomItem: View {
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(verbatim: room.name)
-                    .font(.headline)
-                    .padding(.top, 10)
-                    .padding(.bottom, 20)
+                if room.isInfected {
+                    Text(room.name + " (CLOSED)")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.bottom, 20)
+                        .foregroundColor(Color.red)
+                }
+                else if room.currentOccupancy < room.limit {
+                    Text(verbatim: room.name)
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.bottom, 20)
+                        .foregroundColor(Color.green)
+                }
+                else {
+                    Text(verbatim: room.name)
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.bottom, 20)
+                        .foregroundColor(Color.red)
+                }
+
                 HStack {
                     Text("Current Occupancy: ")
                     Text(String(room.currentOccupancy))
@@ -30,6 +48,7 @@ struct RoomItem: View {
                 
             }
             // Set font and size for the whole VStack content
+                
             .font(.system(size: 14))
            
         }   // End of HStack

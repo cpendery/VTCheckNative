@@ -13,8 +13,8 @@ struct ContentView: View {
         ZStack {
             Color.gray.opacity(0.1).edgesIgnoringSafeArea(.all)
             NavigationView {
-                VStack(alignment: .leading) {
-                    Image("BarcodeScanning")
+                VStack(alignment: .center) {
+                    Image("Fralin")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: UIScreen.main.bounds.width - 60)
@@ -23,29 +23,35 @@ struct ContentView: View {
                     NavigationLink(destination: ScanQRBarcode(barcode: "")) {
                         HStack {
                             Image(systemName: "qrcode.viewfinder")
-                                .foregroundColor(.blue)
+                                .foregroundColor(Color(red: 232.0/255.0, green: 119.0/255.0, blue: 34.0/255.0, opacity: 1.0))
                                 .imageScale(.large)
                                 .font(Font.title.weight(.regular))
                                 .frame(width: 60)
+                            
                             Text("Scan Location Tag")
                                 .font(.headline)
+                                .foregroundColor(Color(red: 232.0/255.0, green: 119.0/255.0, blue: 34.0/255.0, opacity: 1.0))
                         }
-                    }.padding(.bottom, 60)
+                    }
+                    .padding(.bottom, 60)
+                    
                     
                     NavigationLink(destination: RoomList()) {
                         HStack {
                             Image(systemName: "bed.double")
-                                .foregroundColor(.blue)
+                                .foregroundColor(Color(red: 232.0/255.0, green: 119.0/255.0, blue: 34.0/255.0, opacity: 1.0))
                                 .imageScale(.large)
                                 .font(Font.title.weight(.regular))
                                 .frame(width: 60)
                             Text("View Rooms")
                                 .font(.headline)
+                                .foregroundColor(Color(red: 232.0/255.0, green: 119.0/255.0, blue: 34.0/255.0, opacity: 1.0))
                         }
-                    }.padding(.bottom, 60)
+                    }
+                    .padding(.bottom, 60)
                                   
                 }   // End of VStack
-                .navigationBarTitle(Text("VT Check"), displayMode: .inline)
+                .navigationBarTitle(Text("Hokie Check"), displayMode: .inline)
            
             }   // End of NavigationView
         }   // End of ZStack

@@ -19,7 +19,7 @@ struct RoomList: View {
             List {
                 SearchBar(searchItem: $searchItem)
                 // Each Country struct has its own unique 'id' used by ForEach
-                ForEach(userData.roomsList.filter {self.searchItem.isEmpty ? true : $0.name.localizedStandardContains(self.searchItem)}, id: \.self) {
+                ForEach(globalRoomsList.filter {self.searchItem.isEmpty ? true : $0.name.localizedStandardContains(self.searchItem) || $0.building.localizedStandardContains(self.searchItem)}, id: \.self) {
                     aRoom in
                     NavigationLink(destination: RoomDetails(room: aRoom)) {
                         RoomItem(room: aRoom)
@@ -28,6 +28,16 @@ struct RoomList: View {
                
             }   // End of List
             .navigationBarTitle(Text("Rooms"), displayMode: .inline)
+        .navigationBarItems(trailing:
+                           Button(action: {
+                            getAllRoomData()
+                            
+                           }) {
+                                
+                               Image(systemName: "arrow.clockwise")
+                           }
+
+        )
         
     }
    
