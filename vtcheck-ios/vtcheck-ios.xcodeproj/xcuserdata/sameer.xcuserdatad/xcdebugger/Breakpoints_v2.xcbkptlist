@@ -158,8 +158,8 @@
             filePath = "vtcheck-ios/WebRequestData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "getOneRoomData(roomID:action:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "vtcheck-ios/WebRequestData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "getOneRoomData(roomID:action:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -206,8 +206,8 @@
             filePath = "vtcheck-ios/WebRequestData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "getAllRoomData()"
             landmarkType = "9">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "vtcheck-ios/WebRequestData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "getAllRoomData()"
             landmarkType = "9">
          </BreakpointContent>
@@ -290,6 +290,22 @@
             endingLineNumber = "165"
             landmarkName = "launchApp(decodedURL:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90840890-EDE7-468D-A990-0BBFD17C6204"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vtcheck-ios/WebRequestData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loginRequest(username:password:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

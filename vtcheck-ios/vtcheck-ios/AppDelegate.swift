@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
 //        readRoomDataFile()
         
-        getAllRoomData()
+//        getAllRoomData()
         // This function is given in ScanFocusRegion.swift
         createScanFocusRegionImage()
         return true

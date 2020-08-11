@@ -29,6 +29,9 @@
 		423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA524D0E511009506C8 /* SearchBar.swift */; };
 		423D4EAA24D0E511009506C8 /* RoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA624D0E511009506C8 /* RoomList.swift */; };
 		423D4EAB24D0E511009506C8 /* RoomDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D4EA724D0E511009506C8 /* RoomDetails.swift */; };
+		4258759024E314C100A10250 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258758F24E314C100A10250 /* MotherView.swift */; };
+		4258759224E314DF00A10250 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258759124E314DF00A10250 /* ViewRouter.swift */; };
+		4258759424E3159400A10250 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258759324E3159400A10250 /* LoginView.swift */; };
 		4260CD4E24D63C9B0037808D /* WebRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260CD4D24D63C9B0037808D /* WebRequestData.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +81,9 @@
 		423D4EA524D0E511009506C8 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		423D4EA624D0E511009506C8 /* RoomList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomList.swift; sourceTree = "<group>"; };
 		423D4EA724D0E511009506C8 /* RoomDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetails.swift; sourceTree = "<group>"; };
+		4258758F24E314C100A10250 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		4258759124E314DF00A10250 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		4258759324E3159400A10250 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4260CD4D24D63C9B0037808D /* WebRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +152,9 @@
 				423D4E3024CF3DFC009506C8 /* BarcodeScanner.swift */,
 				423D4E2924CF30EE009506C8 /* ScannerViewController.swift */,
 				423D4E2624CF30C2009506C8 /* FlashlightButton.swift */,
+				4258758F24E314C100A10250 /* MotherView.swift */,
+				4258759124E314DF00A10250 /* ViewRouter.swift */,
+				4258759324E3159400A10250 /* LoginView.swift */,
 			);
 			path = "vtcheck-ios";
 			sourceTree = "<group>";
@@ -340,11 +349,14 @@
 				4260CD4E24D63C9B0037808D /* WebRequestData.swift in Sources */,
 				423D4EA924D0E511009506C8 /* SearchBar.swift in Sources */,
 				423D4DF324CE838B009506C8 /* SceneDelegate.swift in Sources */,
+				4258759224E314DF00A10250 /* ViewRouter.swift in Sources */,
 				423D4EA824D0E511009506C8 /* RoomItem.swift in Sources */,
 				423D4E2F24CF3DC1009506C8 /* ScanQRBarcode.swift in Sources */,
+				4258759024E314C100A10250 /* MotherView.swift in Sources */,
 				423D4E9F24D0E3C9009506C8 /* UserData.swift in Sources */,
 				423D4DF524CE838B009506C8 /* ContentView.swift in Sources */,
 				423D4EAB24D0E511009506C8 /* RoomDetails.swift in Sources */,
+				4258759424E3159400A10250 /* LoginView.swift in Sources */,
 				423D4EA124D0E3FE009506C8 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
